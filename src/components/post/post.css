@@ -1,0 +1,145 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.deleteIcon {
+  font-size: 20px;
+  cursor: pointer;
+  color: red;
+  margin-left: 10px;
+}
+
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate{
+    font-size: 12px;
+}
+
+.postCenter{
+    margin: 20px 0;
+}
+
+.postImg{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;   
+}
+
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.postLikeCounter{
+    font-size: 15px;
+}
+
+.postCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+}
+.commentSection {
+  background-color: #f0f2f5;
+  padding: 10px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.commentSection .commentInput {
+  width: 80%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.input-send{
+  display: flex;
+  
+}
+
+.commentSection .commentButton {
+  display: block;
+  width: 10%;
+  padding: 10px;
+  
+  margin-left: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1877f2;
+  color: white;
+  cursor: pointer;
+  margin: auto;
+}
+
+.commentsList {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.comment {
+  padding: 5px 0;
+  color: #121212;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.commentDeleteIcon {
+  cursor: pointer;
+  color: red;
+  margin-left: 10px;
+}
+
+.commentUser {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #1877f2;
+  
+}
